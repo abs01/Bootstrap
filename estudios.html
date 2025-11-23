@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Responsive Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Ensure no overflow on mobile */
+      body {
+        overflow-x: hidden;
+      }
+
+      /* Improve readability of dl items on mobile */
+      dt {
+        margin-top: 1.5rem;
+      }
+      dd {
+        margin-left: 0;
+        padding-left: 0.5rem;
+      }
+
+      /* Fix sidebar stretching too tall on mobile */
+      @media (max-width: 576px) {
+        .min-vh-100 {
+          min-height: auto !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row flex-row-reverse">
+
+        <!-- Sidebar -->
+        <div class="col-12 col-sm-3 col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
+          <div
+            class="d-flex flex-sm-column flex-row align-items-center align-items-sm-start px-3 pt-2 text-black min-vh-100"
+          >
+            <hr class="w-100 d-none d-sm-block" />
+
+            <div class="container pt-2 my-2 text-center">
+              <ul class="list-group list-group-flush">
+
+                <li class="list-group-item bg-transparent">
+                  <p>Estudios</p>
+                  <a href="estudios.html">
+                    <i class="fa-solid fa-book fa-3x"></i>
+                  </a>
+                </li>
+
+                <li class="list-group-item bg-transparent">
+                  <p>Experiencia Laboral</p>
+                  <a href="experiencia.html">
+                    <i class="fa-solid fa-user-tie fa-3x"></i>
+                  </a>
+                </li>
+
+                <li class="list-group-item bg-transparent">
+                  <p>Proyectos</p>
+                  <a href="proyectos.html">
+                    <i class="fa-solid fa-lightbulb fa-3x"></i>
+                  </a>
+                </li>
+
+                <li class="list-group-item bg-transparent">
+                  <p>Aficiones</p>
+                  <a href="aficiones.html">
+                    <i class="fa-solid fa-palette fa-3x"></i>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <div class="col py-3 px-3">
+
+          <dl>
+            <dt class="h1">Emili Darder</dt>
+            <dd>
+              Cursé aqué el medio de microinformática y actualmente estoy en desarrollo web
+            </dd>
+
+            <dt class="h1">Borja moll</dt>
+            <dd>
+              Superior de desarrollo de aplicaciones multiplataforma
+            </dd>
+
+            <dt class="h1">Ejemplo 3</dt>
+            <dd>
+              Bacon ipsum dolor amet strip steak shank short ribs, pork chop
+              short loin beef ribs porchetta cupim meatball sausage...
+            </dd>
+
+            <dt class="h1">Ejemplo 4</dt>
+            <dd>
+              Bacon ipsum dolor amet strip steak shank short ribs, pork chop
+              short loin beef ribs porchetta cupim meatball sausage...
+            </dd>
+
+            <dt class="h1">Ejemplo 5</dt>
+            <dd>
+              Bacon ipsum dolor amet strip steak shank short ribs, pork chop
+              short loin beef ribs porchetta cupim meatball sausage...
+            </dd>
+
+            <dt class="h1">Ejemplo 6</dt>
+            <dd>
+              Bacon ipsum dolor amet strip steak shank short ribs, pork chop
+              short loin beef ribs porchetta cupim meatball sausage...
+            </dd>
+          </dl>
+
+        </div>
+      </div>
+
+      <!-- Home button -->
+      <div class="d-flex justify-content-left mb-4">
+        <a
+          href="index.html"
+          class="fa-solid fa-house fa-4x"
+          style="color: #373737"
+        ></a>
+      </div>
+
+      <!-- Footer -->
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <p class="col-md-4 mb-0 text-body-secondary">
+          © 2025 Antoni Bascuñana Sánchez — todos los derechos reservados
+        </p>
+
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto"
+        >
+          <svg class="bi me-2" width="40" height="32" aria-hidden="true"></svg>
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a
+              href="https://www.linkedin.com/in/antoni-xavier-bascu%C3%B1ana-s%C3%A1nchez-21091933a/"
+              class="nav-link px-2 fa-brands fa-linkedin fa-2xl"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://github.com/abs01"
+              class="nav-link px-2 fa-brands fa-github fa-2xl"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 fa-brands fa-twitter fa-2xl"></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 fa-brands fa-instagram fa-2xl"></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
